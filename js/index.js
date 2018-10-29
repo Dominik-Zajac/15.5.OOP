@@ -11,7 +11,7 @@ Button.prototype = {
       alert(self.text);
     });
    this.$element.appendTo($('body'));
-  };
+  }
 };
 
 var btn1 = new Button('Hello!');
